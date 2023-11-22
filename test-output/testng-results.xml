@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-04T13:27:21 PDT" name="Default suite" finished-at="2023-04-04T13:27:23 PDT" duration-ms="2123">
+    <groups>
+    </groups>
+    <test started-at="2023-04-04T13:27:21 PDT" name="Default test" finished-at="2023-04-04T13:27:23 PDT" duration-ms="2123">
+      <class name="storedFunctionsTesting.SFTesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:storedFunctionsTesting.SFTesting@4d0f2471]" started-at="2023-04-04T13:27:21 PDT" name="setup" finished-at="2023-04-04T13:27:22 PDT" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_customerLeveWithStoredProcedure()[pri:3, instance:storedFunctionsTesting.SFTesting@4d0f2471]" started-at="2023-04-04T13:27:22 PDT" name="test_customerLeveWithStoredProcedure" finished-at="2023-04-04T13:27:23 PDT" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_customerLeveWithStoredProcedure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:storedFunctionsTesting.SFTesting@4d0f2471]" started-at="2023-04-04T13:27:23 PDT" name="tearDown" finished-at="2023-04-04T13:27:23 PDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- storedFunctionsTesting.SFTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
