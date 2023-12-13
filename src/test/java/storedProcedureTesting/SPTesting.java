@@ -25,7 +25,7 @@ public class SPTesting {
 	
 	Connection con = null;
 	Statement stmt = null;
-	CallableStatement cstmt;
+	CallableStatement cstmt; //when we call stored procedures from jdbc we need to use 'CallableStatement' class and then prepare a call.
 	ResultSet rs;
 	
 	@BeforeClass
